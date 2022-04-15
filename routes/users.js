@@ -1,5 +1,5 @@
 let mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/myTasker1');
+mongoose.connect('mongodb+srv://Chandana:cvml462ccl4*@mytasker.wknnc.mongodb.net/myTaskerDB?retryWrites=true&w=majority')
 let schema = mongoose.Schema(
   {
     content: {
